@@ -244,10 +244,12 @@ cursor: pointer;
 	padding:90px 0 90px 0;
 	background:
 	url(dogPicture/chihuahua.jpeg);
-
+	
 	
 	background-position: center;
 	background-size: cover;
+	 -webkit-background-size: cover;
+	 -moz-background-size: cover;
 	 
 	background-repeat: repeat;
 	background-attachment: fixed;
