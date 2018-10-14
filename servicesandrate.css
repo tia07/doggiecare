@@ -1,0 +1,641 @@
+
+*{
+	margin:0;
+	padding: 0;
+	box-sizing:border-box;
+}
+body{
+	font-family: 'Arvo', serif;
+	letter-spacing: 1px;
+}
+h2{
+	padding-bottom: 10px;
+	
+	font-weight: bold;
+	color:#FDB847;
+	font-size: 2.8em;
+}
+h4{
+	font-size:1.7em;
+	margin-bottom:15px;
+	margin-top:10px;
+
+	color:#FDB847;
+}
+#burger-wrap{
+	display: none;
+	position: relative;
+	
+}
+#burger-nav{
+	position: absolute;
+	display: none;
+	width: 100%;
+
+
+}
+
+
+
+/*      header     */
+.header-wrap{
+	background: #1EBBA6;
+}
+
+.header{
+	display: flex;
+	justify-content: space-between;
+	width:85%;
+	margin:0 auto;
+	padding: 20px 0;
+}
+#navigation
+{
+	width:67%;
+	margin:0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-left: 160px;
+	list-style-type: none;
+	
+}
+#navigation li a:hover{
+	color:#FDB847;
+}
+
+
+
+
+.header a{
+text-decoration: none;
+color: black;
+font-size: 1.2em;
+}
+.logo a{
+	color:#FDB847;
+	font-family: 'Berkshire Swash', cursive;
+	text-shadow: 3px 2px 2px black;
+	font-size: 2.3em;
+	font-weight: bolder;
+	letter-spacing: 3px;
+	
+}
+
+/*  servicerate intro   */
+.servicesrate-wrap{
+	width:85%;
+	margin:0 auto;
+
+}
+.intro-title{
+	text-align: center;
+	padding: 60px 0px;
+	
+	color:#1EBBA6;
+	font-size: 3.8em;
+	font-weight: bold;
+
+}
+/*  services  */
+.Doggie{
+	display: flex;
+	margin-bottom: 100px;
+	line-height: 1.5;
+
+}
+.Doggie ul li{
+	border: none;
+
+}
+.Doggie ul {
+	list-style: none;
+}
+.Doggie-Daycare{
+	margin-top:50px;
+}
+.description-requirement{
+	width: 70%;
+	
+	padding-right:90px;
+}
+.attention ul {
+	list-style:circle inside ;
+	margin-top: 10px;
+
+}
+
+.description-requirement ul{
+	list-style:circle inside ;
+}
+.rate{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 30%;
+}
+.include{
+	display: flex;
+	margin-top:10px;
+
+}
+.include ul{
+	margin-right:30px;
+}
+/*   form  */
+
+.form{
+	width: 50%;
+	
+}
+.location{
+	width:50%;
+	line-height: 1.5;
+}
+form input{
+	width: 100%;
+	height: 40px;
+	border: 2px solid lightgrey;
+	font-size: 1.1em;
+	margin-bottom: 30px;
+	padding:0px 10px;
+	
+	
+}
+input:focus{
+	outline:none;
+	
+}
+
+
+
+textarea{
+	width: 100%;
+	height: 200px;
+	margin-top:10px;
+	margin-bottom: 20px;
+	font-size:1.2em;
+	padding-left: 10px;
+}
+textarea:focus{
+	outline:none;
+	
+}
+
+/* contact*/
+.contact{
+
+	display: flex;
+}
+.contact-wrap{
+	width:85%;
+	margin:0 auto;
+}
+.submit{
+background:#1EBBA6;
+	color:white;
+	text-align: center;
+	width:25%;
+}
+.submit:hover{
+	background:#FDB847;
+	color:white;
+}
+
+/*  about us  */
+
+.aboutus-wrap{
+	width: 85%;
+	margin:0 auto;
+	text-align: center;
+}
+.whatweare-wrap{
+	display: flex;
+}
+.whatweare{
+	width: 55%;
+	line-height: 1.5;
+	text-align: left;
+	margin-left:30px;
+}
+
+.aboutus-pic{
+	width:45%;
+	height: 470px;
+	background:url(dogPicture/aboutusdog.jpeg);
+	
+	background-position:center;
+	background-repeat: none;
+	border-radius: 50%;
+	border:5px solid #FDB847;
+	background-size: cover;
+}
+/* team wrap */
+
+
+
+.person{
+	display: flex;
+	width: 50%;
+}
+
+.team-wrap{
+	width:85%;
+	margin:0 auto;
+}
+.team-container{
+	width: 100%;
+}
+
+
+.team{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+.team1{
+	width:50%;
+}
+.pic1{
+	height: 260px;
+	border:5px solid #FDB847;
+	border-radius: 50%;
+	margin-right: 20px;
+	background: url(dogPicture/peopledog1.jpeg);
+	background-size: cover;
+	background-position: center;
+
+}
+.pic2{
+	height: 260px;
+	border:5px solid #FDB847;
+	border-radius: 50%;
+	background: url(dogPicture/peopledog2.jpeg);
+	background-size: cover;
+	background-position: center;
+
+}
+.pic3{
+	height: 260px;
+	border:5px solid #FDB847;
+	border-radius: 50%;
+	background: url(dogPicture/peopledog3.jpeg);
+	background-size: cover;
+	background-position: center;
+	margin-right: 20px;
+
+}
+.pic4{
+	height: 260px;
+	border:5px solid #FDB847;
+	border-radius: 50%;
+	background: url(dogPicture/peopledog4.jpeg);
+	background-size: cover;
+	background-position: center;
+
+}
+.pic5{
+	height: 260px;
+	border:5px solid #FDB847;
+	border-radius: 50%;
+	background: url(dogPicture/peopledog6.jpeg);
+	margin-right: 20px;
+	background-size: cover;
+	background-position: center;
+
+}
+ .pic6{
+	height: 260px;
+	border:5px solid #FDB847;
+	border-radius: 50%;
+	background: url(dogPicture/peopledog2.jpeg);
+	background-size: cover;
+	background-position: center;
+
+}
+.team-description{
+	line-height: 1.5;
+	margin-left: 20px;
+	margin-right:10px;
+}
+
+/*      footer  */
+
+.footer-wrap{
+	width: 100%;
+	margin-top: 70px;
+	background: #2E3E4F;
+	color:white;
+	text-align: left;
+}
+.footer{
+	width:90%;
+	margin:auto;
+	background: #2E3E4F;
+	padding:70px 0;
+	text-align: left;
+	display: flex;
+	justify-content: space-around;
+	
+	
+}
+.footer li{
+	list-style: none;
+}
+.footer a{
+	color:white;
+	text-decoration: none;
+}
+
+h5{
+	margin-bottom: 20px;
+	font-size: 1em;
+	font-size: bold;
+}
+.copyright{
+	background:#243140;
+	padding:25px 0;
+	text-align: center;
+}
+.footer input{
+	padding-left:110px;
+	padding-top:7px;
+	padding-bottom: 7px;
+}
+
+.foot{
+	margin-right: 50px;
+}
+.foot-ul{
+	display: flex;
+
+}
+.foot-ul ul{
+	margin-right: 30px;
+}
+
+
+@media (max-width:1000px){
+	.aboutus-wrap{
+	width: 95%;
+	
+}
+.team-wrap{
+	width:90%;
+	
+}
+.aboutus-pic{
+	width:40%;
+	height:350px;
+}
+.pic1, .pic2, .pic3, .pic4, .pic5, .pic6{
+	height: 200px;
+}
+}
+
+@media (max-width:950px){
+
+	.header-wrap{
+		background: #1EBBA6;
+	}
+	#navigation{
+	width:100%;
+	margin-left: 60px;
+	
+	}
+	#burger-nav{
+		display: none;
+	}
+	.Doggie{
+		flex-direction: column;
+	}
+	.rate{
+		margin-top: 30px;
+	}
+	.description-requirement{
+	width:100%;
+
+	}
+	.rate{
+		width: 100%;
+		margin-right:0px;
+	}
+	
+}
+@media (max-width: 850px){
+	.header-wrap{
+		
+		display: none;
+	}
+	
+	#burger-wrap{
+		
+		margin:0 auto;
+		padding:20px 40px;
+		display:block;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		background: #1EBBA6;
+	}
+	ul{
+		list-style: none;
+	}
+	#burger-nav{
+		display:none;
+		background: black;
+		height: 100vh;
+		padding-left: 50px;
+		padding-right:50px;
+		padding-top:30px;
+		
+	}
+	#burger-nav a{
+		color:white;
+         text-decoration: none;
+         font-size: 1.2em;
+
+	}
+	#burger-nav li{
+		padding:10px 0px;
+		border-bottom: 1px solid grey;
+	}
+	#burger{
+		font-size: 2em;
+		cursor: pointer;
+	}
+	.include{
+		flex-direction: column;
+	}
+
+	.aboutus-pic{
+	width:40%;
+	height:300px;
+	}
+	.pic1, .pic2, .pic3, .pic4, .pic5, .pic6{
+	height:300px;
+	}
+	.contact-wrap{
+	width:90%;
+	margin:0 auto;
+	}
+	.team{
+		flex-direction: column;
+	}
+	.person{
+		width: 100%;
+		margin-bottom:70px;
+	}
+
+	
+
+	
+}
+
+@media (max-width:600px){
+
+.description-requirement{
+	width:90%;
+	
+	padding-right:0px;
+}
+
+
+.services{
+ 	flex-direction: column;
+}
+.summer-wrap{
+	flex-direction: column;
+}
+.two{
+	width:100%;
+}
+.checkout{
+top:-17%;
+left:40%;
+}
+.counter{
+	flex-direction: column;
+}
+.c-one{
+	text-align: left;
+	margin-bottom: 50px;
+	
+}
+.c-one p{
+	padding-right: 30px;
+}
+.footer{
+	flex-direction: column;
+}
+.foot{
+	margin-bottom: 30px;
+}
+
+.circle{
+	width:400px;
+	height:400px;
+	
+	border-radius: 50%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	position: relative;
+	left:0px;
+	top:100px;
+	background:white;
+	opacity: .6;
+	padding: 0px 20px;
+}
+.circle p{
+	font-size:.9em;
+}
+.circle span{
+	font-size: 1.3em;
+}
+.contact{
+
+	flex-direction: column;
+}
+.location, .form{
+	width: 100%;
+	margin-bottom: 50px;
+}
+.contact-wrap{
+	width:90%;
+	margin:0 auto;
+}
+.person{
+	flex-direction: column;
+}
+.team1{
+	width: 70%;
+	margin:0 auto;
+	text-align: center;
+	padding-bottom: 15px;
+
+}
+.pic1, .pic2, .pic3, .pic4, .pic5, .pic6{
+	height:250px;
+	}
+		.whatweare-wrap{
+		flex-direction: column;
+	}
+	.aboutus-pic, .whatweare{
+		width:90%;
+		margin:0 auto;
+		text-align: center;
+	}
+	.aboutus-pic{
+		height:340px;
+	}
+
+}
+
+@media(max-width:420px){
+	
+	.logo a{
+		font-size:1.9em;
+	}
+
+	.intro-title{
+		font-size:2.7em;
+	}
+	
+	.description-requirement h2{
+		font-size:2.1em;
+	}
+	.whatweare h2{
+		font-size: 2.5em;
+	}
+	.aboutus-pic{
+		height:265px;
+	}
+	.pic1, .pic2, .pic3, .pic4, .pic5, .pic6{
+	height:200px;
+	}
+
+
+
+
+}
+@media(max-width:386px){
+	.submit{
+		width:27%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
