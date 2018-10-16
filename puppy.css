@@ -444,6 +444,13 @@ h5{
 	.service{
 		padding-bottom: 50px;
 	}
+	.counter-wrap{
+	background:
+	url(dogPicture/chihuahua.jpeg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: repeat;
+	}
 
 }
 
