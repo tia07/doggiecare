@@ -449,7 +449,7 @@ h5{
 	url(dogPicture/chihuahua.jpeg);
 	background-position: center;
 	background-size: cover;
-	background-repeat: repeat;
+	background-repeat:no-repeat;
 	}
 
 }
